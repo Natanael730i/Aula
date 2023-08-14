@@ -24,6 +24,8 @@ public class EstruturaDeControleComIf {
         } else{
             System.out.println("Obesidade grau 3");
         }
-    }
 
+
+
+    }
 }

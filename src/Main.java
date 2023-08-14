@@ -11,6 +11,11 @@ public class Main {
         long populacaoBrasil = 220000000;
         float precoProdutoPaoKg = 0.85f;
 
+        String mensagemPrecoCarne = "Preço da Carne: " + precoProdutoPaoKg;
+        double valor =1.05d;
+
+        System.out.println(valor);
+        System.out.println(mensagemPrecoCarne);
         System.out.println("Preço da Carne em quilos é: " + precoProdutoCarneKG);
         System.out.println("O Alunos está Matriculado: " + alunoEstaMatriculado);
         System.out.println("Sexo: " + sexo);

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        double precoProdutoCarneKG = 39.50;
+        double precoProdutoCarneKG = 39.50d;
         boolean alunoEstaMatriculado = false;
 
         char sexo = 'M';
@@ -16,6 +16,7 @@ public class Main {
 
         System.out.println(valor);
         System.out.println(mensagemPrecoCarne);
+
         System.out.println("Preço da Carne em quilos é: " + precoProdutoCarneKG);
         System.out.println("O Alunos está Matriculado: " + alunoEstaMatriculado);
         System.out.println("Sexo: " + sexo);
